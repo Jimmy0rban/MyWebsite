@@ -1,0 +1,48 @@
+/* css/header.css */
+.btn-outline-light {
+    color: #ffffff; /* Text color */
+    border-color: #ffffff; /* Border color */
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff; /* Background color on hover */
+    box-shadow: 0 0 5px 2.5px rgba(255, 255, 255, 0.7); /* Shiny white shadow */
+}
+
+.fas.fa-user {
+    color: #f6f6f6; /* Icon color */
+}
+
+.btn-outline-light:hover .fas.fa-user {
+    color: #000000; /* Icon color on hover */
+}
+
+/*Change background color*/
+
+body.dark-mode {
+    background:#212529;
+    color: white;
+}
+
+body.dark-mode .navbar-expand-lg{
+    box-shadow: 0 0 5px 2.5px rgba(255, 255, 255, 0.7); /* Shiny white shadow */
+}
+
+body.dark-mode .btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+body.dark-mode .btn-outline-light:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px 2.5px rgba(255, 255, 255, 0.7);
+}
+
+body.dark-mode .fas.fa-user {
+    color: white;
+}
+
+body.dark-mode .btn-outline-light:hover .fas.fa-user {
+    color: black;
+}
